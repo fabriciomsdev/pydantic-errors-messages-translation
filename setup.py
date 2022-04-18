@@ -1,5 +1,6 @@
 import pathlib
 from setuptools import setup
+from pydantic_errors_messages_translations import __version__
 
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
@@ -10,7 +11,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="pydantic_errors_messages_translations",
-    version="1.1.1",
+    version=__version__,
     description="It's a collection of translations for pydantic errors in any languages",
     long_description=README,
     long_description_content_type="text/markdown",
