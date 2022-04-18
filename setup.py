@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="pydantic_errors_messages_translations",
-    version="1.1.0",
+    version="1.1.1",
     description="It's a collection of translations for pydantic errors in any languages",
     long_description=README,
     long_description_content_type="text/markdown",
