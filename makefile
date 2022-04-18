@@ -5,7 +5,7 @@ setup-environment:
 	PIP_CONFIG_FILE=./pip.conf pip install -r requirements-dev.txt
 
 up-version:
-	bumpversion minor --new-version $1 setup.py ./pydantic_errors_messages_translations/__init__.py
+	. ./venv/bin/activate && bumpversion minor --new-version $1 setup.py ./pydantic_errors_messages_translations/__init__.py
 
 release:
 	make up-version
