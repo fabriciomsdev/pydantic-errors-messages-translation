@@ -1,7 +1,7 @@
 from typing import Dict
 
 
-pydantic_msg_template_translations: Dict[str: Dict] = {
+pydantic_msg_template_translations: Dict[str, Dict] = {
     'pt_BR': {
         "field required": "Campo Obrigatório", 
         "extra fields not permitted": "Campos adicinais não são permitidos", 
