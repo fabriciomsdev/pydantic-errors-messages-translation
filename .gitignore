@@ -3,3 +3,4 @@ __pycache__
 venv
 pydantic_errors_messages_translations.egg-info/
 dist
+build
